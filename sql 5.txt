@@ -143,3 +143,5 @@ located in San Jose.
 mysql>select * from customer where city in(select city from customers where city="San Jose" group by city having count(city)>1);
 
 
+
+//Well Done
